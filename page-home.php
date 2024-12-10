@@ -10,7 +10,7 @@
                         <h1>HOME</h1>      
                         LLLLorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis officia totam earum eaque sed ullam aspernatur dolor nostrum saepe.
                     </div>
-                    <?php echo wp_get_attachment_image(68,'full')?>
+                    <?php echo wp_get_attachment_image(79,'full')?>
                 </div>
             </article>
             <article id="second-info">
@@ -21,7 +21,7 @@
                             LLLLorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis officia totam earum eaque sed ullam aspernatur dolor nostrum saepe.
                             </div>
                         </div>
-                        <?php echo wp_get_attachment_image(66,'full')?>
+                        <?php echo wp_get_attachment_image(75,'full')?>
                     </div>
             </article>
         </section>
@@ -51,19 +51,19 @@
             <div class="project-container">
                 <div class="project">
                     <a href="#">
-                        <?php echo wp_get_attachment_image(62,'full')?>
+                        <?php echo wp_get_attachment_image(76,'full')?>
                     </a>
                     <p>Opis projektu1</p>
                 </div>
                 <div class="project">
                     <a href="#">
-                        <?php echo wp_get_attachment_image(59,'full')?>
+                        <?php echo wp_get_attachment_image(77,'full')?>
                     </a>
                     <p>Opis projektu2</p>
                 </div>
                 <div class="project">
                     <a href="#">
-                        <?php echo wp_get_attachment_image(65,'full')?> 
+                        <?php echo wp_get_attachment_image(78,'full')?> 
                     </a>
                     <p>Opis projektu3</p>
                 </div>
