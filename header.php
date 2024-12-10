@@ -8,7 +8,12 @@
 </head>
 <body <?php body_class(); ?>>
   <header>
-    <nav>
-      <?php wp_nav_menu( array('menu'=> 'header', 'container'=> '', 'menu_class'=> '') ); ?>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#first-info">Home</a></li>
+            <li><a href="#second-info">About</a></li>
+            <li><a href="#skills-section">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
     </nav>
   </header>
