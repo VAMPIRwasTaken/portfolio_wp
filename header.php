@@ -10,10 +10,10 @@
   <header>
     <nav class="navbar">
         <ul>
-            <li><a href="#first-info">Home</a></li>
-            <li><a href="#second-info">About</a></li>
-            <li><a href="#skills-section">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
+            <li><a href="#first-info"><?php echo get_field('domek_1','user_1')?></a></li>
+            <li><a href="#second-info"><?php echo get_field('about','user_1')?></a></li>
+            <li><a href="#skills-section"><?php echo get_field('skills','user_1')?></a></li>
+            <li><a href="#projects"><?php echo get_field('projects','user_1')?></a></li>
         </ul>
     </nav>
   </header>

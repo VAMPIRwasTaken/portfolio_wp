@@ -2,25 +2,21 @@
     <div class="container">
         <div class="row">
             <div class="footer-col">
-                <h4>Kontakt</h4>
-                <ul>
-                    <li>+48 764 213</a></li>
-                    <li>Bydgoszcz, Gdańska 24/3</a></li>
-                    <li>portfolio@gmail.com</a></li>
-                </ul>
+                <h4><?php echo get_field('kontakt','user_1')?>
+                <? if(!empty(get_field('kontakt','user_1'))) ?></h4>
+                <?php echo get_field('dane_1','user_1')?>
+                <?php echo get_field('dane_2','user_1')?>
             </div>
             <div class="footer-col">
-                <h4>Znajdz nas tutaj</h4>
-                <div class="social-links">
-                <ul>
-                    <li><a href="https://www.facebook.com/">Facebook</a></li>
-                    <li><a href="https://www.instagram.com/">Instagram</a></li>
-                    <li><a href="https://x.com/">X</a></li>
-                    <li><a href="https://pl.linkedin.com/">Linkedin-in</a></li>
-                </ul>
-                </div>
+                <h4><?php echo get_field('social','user_1')?>
+                <? if(!empty(get_field('social','user_1'))) ?></h4>
+            <div class="social-links">
+                <?php echo get_field('sociale_1','user_1')?>
+                <?php echo get_field('sociale_2','user_1')?>
             </div>
+        </div>
+    </div>
     </footer>
-	<?php wp_footer(); ?>
+	<?php wp_footer();?>
 </body>
 </html>
