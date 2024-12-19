@@ -9,11 +9,10 @@
 <body <?php body_class(); ?>>
   <header>
     <nav class="navbar">
-        <ul>
-            <li><a href="#first-info"><?php echo get_field('domek_1','user_1')?></a></li>
-            <li><a href="#second-info"><?php echo get_field('about','user_1')?></a></li>
-            <li><a href="#skills-section"><?php echo get_field('skills','user_1')?></a></li>
-            <li><a href="#projects"><?php echo get_field('projects','user_1')?></a></li>
-        </ul>
+    <? if(pll_current_language() == 'pl') { ?>
+      <?php wp_nav_menu( array('menu'=> 'header', 'container'=> '', 'menu_class'=> '' )); ?>
+    <?} else { ?>
+      <?php wp_nav_menu( array('menu'=> 'header-en', 'container'=> '', 'menu_class'=> '') ); ?>
+      <?} ?>
     </nav>
   </header>
