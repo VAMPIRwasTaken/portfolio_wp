@@ -421,7 +421,6 @@ html{
     .home {
         padding-top: 2%;
     }
-}
     .skill-information{
         padding: 0.3rem;
         }
@@ -445,4 +444,47 @@ html{
     .info{
         padding-top: 0.7rem;
         }
+    }
 
+
+    .page-id-177{
+        background-color: white;
+        }
+    #post-177 h2,h5{
+        text-align: center;
+    }
+    .wp-block-group p{
+        text-align: left;
+        margin: 30px;
+    }
+    .wp-block-media-text {
+        background-color: #24262b;
+    }
+    .wp-block-media-text img{
+        width: 100%;
+        height: auto;
+        margin: 10px 0 10px 30px;
+    }
+    .wp-block-media-text p{
+        font-size: 1rem;
+        line-height: 1.5;
+        margin: 0 30px 0 0;
+        color: white;
+    }
+    .wp-block-table.aligncenter{
+        margin: 30px auto;
+        border-collapse: collapse;
+        width: 70%;
+    }
+    .wp-block-gallery{
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+    }
+    figure.wp-block-gallery.has-nested-images{
+        width: 300px;
+        height: 300px;
+        align-self: flex-start;
+    }
+
+  
